@@ -25,10 +25,58 @@
     </div>
     <div class="modal-body">
         <div class="form-group">
-            <input id="title" class="form-control " type="text" placeholder="title">
+            <input id="title" class="form-control " type="text" placeholder="title" required>
         </div>
         <div class="form-group">
-            <input id="language" class="form-control " type="text" placeholder="language">
+			<select name="language" class="form-control " id="language" placeholder="language">
+				<option value="ADA 95(gnat 4.9.2)">ADA 95(gnat 4.9.2)</option>
+				<option value="Assembler(nasm 2.11.05)">Assembler(nasm 2.11.05)</option>
+				<option value="Bash(bash-4.3.30)">Bash(bash-4.3.30)</option>
+				<option value="Brainf**k(bff-1.0.5)">Brainf**k(bff-1.0.5)</option>
+				<option value="C(gcc-4.9.2)">C(gcc-4.9.2)</option>
+				<option value="C99 strict(gcc 4.9.2)">C99 strict(gcc 4.9.2)</option>
+				<option value="Ocaml(ocamlopt 4.01.0)">Ocaml(ocamlopt 4.01.0)</option>
+				<option value="Clojure(clojure 1.7)">Clojure(clojure 1.7)</option>
+				<option value="Clips(clips-6.24)">Clips(clips-6.24)</option>
+				<option value="C++(gcc-4.3.2)">C++(gcc-4.3.2)</option>
+				<option value="C++(gcc-4.9.2)">C++(gcc-4.9.2)</option>
+				<option value="C++14(g++ 4.9.2)">C++14(g++ 4.9.2)</option>
+				<option value="C#(gmcs 3.10)">C#(gmcs 3.10)</option>
+				<option value="D(gdc 4.9.2)">D(gdc 4.9.2)</option>
+				<option value="Erlang(erlang-5.6.3)">Erlang(erlang-5.6.3)</option>
+				<option value="Fortran(gfortran 4.9.2)">Fortran(gfortran 4.9.2)</option>
+				<option value="F#(fsharp-3.10)">F#(fsharp-3.10)</option>
+				<option value="Go(1.4)">Go(1.4)</option>
+				<option value="Haskell(ghc-7.6.3)">Haskell(ghc-7.6.3)</option>
+				<option value="Intercal(ick-0.28-4)">Intercal(ick-0.28-4)</option>
+				<option value="Icon(iconc-9.4.3)">Icon(iconc-9.4.3)</option>
+				<option value="Java(javac 8)">Java(javac 8)</option>
+				<option value="JavaScript(rhino 1.7R4)">JavaScript(rhino 1.7R4)</option>
+				<option value="Common Lisp(clisp 2.49)">Common Lisp(clisp 2.49)</option>
+				<option value="Common Lisp(sbcl-1.0.18)">Common Lisp(sbcl-1.0.18)</option>
+				<option value="Lua(luac-5.2)">Lua(luac-5.2)</option>
+				<option value="Nemerle(ncc-0.9.3)">Nemerle(ncc-0.9.3)</option>
+				<option value="Nice(nice-0.9.6)">Nice(nice-0.9.6)</option>
+				<option value="JavaScript(node.js-0.10.35)">JavaScript(node.js-0.10.35)</option>
+				<option value="Pascal(fpc-2.6.4)">Pascal(fpc-2.6.4)</option>
+				<option value="Pascal(gpc-20070904)">Pascal(gpc-20070904)</option>
+				<option value="Perl(perl-5.20.1)">Perl(perl-5.20.1)</option>
+				<option value="PHP(php 5.6.4)">PHP(php 5.6.4)</option>
+				<option value="Pike(pike-7.8)">Pike(pike-7.8)</option>
+				<option value="Prolog(swipl-5.6.58)">Prolog(swipl-5.6.58)</option>
+				<option value="PyPy(Pypy)">PyPy(Pypy)</option>
+				<option value="Python(python-2.7.9)">Python(python-2.7.9)</option>
+				<option value="Python3(python-3.4)">Python3(python-3.4)</option>
+				<option value="Ruby(ruby-1.9.3)">Ruby(ruby-1.9.3)</option>
+				<option value="Scala(scala 2.11.4)">Scala(scala 2.11.4)</option>
+				<option value="Scheme(chicken)">Scheme(chicken)</option>
+				<option value="Scheme(guile 2.0.11)">Scheme(guile 2.0.11)</option>
+				<option value="Scheme(stalin-0.11)">Scheme(stalin-0.11)</option>
+				<option value="Smalltalk(gst 3.2.4)">Smalltalk(gst 3.2.4)</option>
+				<option value="Tcl(tclsh 8.6)">Tcl(tclsh 8.6)</option>
+				<option value="Text(pure text)">Text(pure text)</option>
+				<option value="Whitespace(wspace-0.2)">Whitespace(wspace-0.2)</option>
+			</select>
         </div>
         <div class="form-group">
             <div id="editor" class="form-control" style="height: 300px"></div>
