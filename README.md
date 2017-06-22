@@ -1,4 +1,4 @@
-# Snipper
+# CodeRepo : Library For Coders
 
 This is a simple desktop app that lets you save your most frequently used Code Snippets with syntax highlighting.
 
