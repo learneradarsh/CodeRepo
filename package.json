@@ -11,7 +11,7 @@
     "start": "electron ."
   },
   "build": {
-    "appId": "coding-blocks.Snipper",
+    "appId": "",
     "dmg": {
       "contents": [
         {
