@@ -1,6 +1,4 @@
-/**
- * Created by piyush0 on 22/05/17.
- */
+
 
 const {ipcRenderer} = require('electron');
 
