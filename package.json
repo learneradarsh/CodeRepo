@@ -1,5 +1,5 @@
 {
-  "name": "Snipper",
+  "name": "CodeRepor",
   "version": "1.0.0",
   "description": "A cross platform desktop app that lets you save your frequently used code snippets.",
   "main": "./main.js",
