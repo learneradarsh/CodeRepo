@@ -1,6 +1,4 @@
-/**
- * Created by piyush0 on 03/06/17.
- */
+
 const Datastore = require('nedb');
 const {app} = require('electron');
 const userData = app.getAppPath('userData').replace('/app.asar', '');
